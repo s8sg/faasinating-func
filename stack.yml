@@ -5,5 +5,7 @@ provider:
 functions:
   ENTraslator:
     lang: go
-    handler: ./ENTraslator
-    image: s8sg/ENTraslator
+    handler: ./ENTranslator
+    image: s8sg/entranslator
+    environment:
+      APIKEY: AIzaSyBO3AbUrJngcM8ZTpg0GMPe8VHibv4pH-4 
